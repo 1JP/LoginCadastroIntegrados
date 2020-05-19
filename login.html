@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="UTF-8" />
+		<title>Login</title>
+		<meta name = "author" content = "João Pedro">
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+
+	</head>
+	<body>
+
+		<header class = "header-login">
+			
+			<h1>Login</h1>
+
+		</header>
+
+		<main class = "main-login">
+			
+			<form method="post" action="./php/autenticacao.php">
+
+				<p>
+
+					<label for="Usuario">Usuário</label>
+				    <input type="text" name="user" placeholder="Nome de usuário">
+
+				</p>
+
+				<p>
+				        
+				    <label for="Senha">Senha</label>
+				    <input type="password" name="pass" placeholder="Senha">
+				    
+				</p>
+
+				<p><input type="submit" class = "btn" value = "Logar"></p>
+
+			</form>
+
+		</main>
+
+	</body>
+</html>
