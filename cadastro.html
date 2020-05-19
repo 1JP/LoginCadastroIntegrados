@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8" />
+	  <title>Cadastro</title>
+	  <meta name = "author" content = "João Pedro">
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+      <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+
+	</head>
+	<body>
+
+		<header class = "header-cadastro">
+			
+			<li><a href="./php/index.php">Sair</a></li>
+	        <li><a href="./php/listar.php">Consultar</a></li>
+
+	        <h1>Cadastro</h1> 
+
+		</header>
+
+		<main class = "main-cadastro">
+			
+			<div class = "cadastro">
+
+	        	<form method="post" action="cadastro.php"> 
+		        
+		       		<div class = "cadastro-2-3">
+		        	
+			        	<p> 
+			            	<br>Nome Completo
+			            	<input name="nome_cad" required="required" type="text" placeholder="João Pedro Gonçalves" />
+			        	</p>
+			           
+			        	<p> 
+			           	 	<br>Apelido
+			            	<input name="apelido_cad" required="required" type="apelido" placeholder="ex. joaozinho"/> 
+			        	</p>
+			           
+			        	<p> 
+
+			            	<br>CPF <input name="cpf_cad" required="required" type="cpf" placeholder="ex. 123.456.789-00"/>
+
+			        	</p>
+
+			        	<p>
+
+			        		<br>Sexo
+			            	<input name="sexo_cad" required="required" type="sexo" placeholder="ex. M"/>
+
+			       		 </p>
+
+				        <p>
+
+				            <br>Data de Nascimento
+				            <input name="datanascimento_cad" required="required" type="Data de nascimento" placeholder="ex. 10/10/1995"/>
+
+				        </p>
+
+				        <p>
+
+				            <br>Estado
+				            <input name="estado_cad" required="required" type="estado" placeholder="ex. MG"/>
+
+				        </p>
+
+			        </div>
+			        
+			        <div class = "cadastro-1-3">
+			        	
+				        <p>
+
+				            <br>Email
+				            <input name="email_cad" required="required" type="email" placeholder="ex. nome@gmail.com"/>
+
+				        </p>
+
+				        <p>
+				            <br">Cidade
+				            <input name="cidade_cad" required="required" type="cidade" placeholder="ex. Matozinhos"/>
+
+				        </p>
+
+				        <p>
+
+				            <br>CEP
+				            <input name="cep_cad" required="required" type="CEP" placeholder="ex. 35720-00"/>
+
+				        </p>
+
+				        <p>
+
+				            <br>Telefone
+				            <input name="telefone_cad" required="required" type="telefone" placeholder="ex. (31) 3572-3256"/>
+
+				        </p>
+
+				        <p>
+
+				            <br>Celular
+				            <input name="celular_cad" required="required" type="celular" placeholder="ex. (31) 99927-5112"/>
+
+				        </p>
+
+				        <p>
+
+				            <br>Usuário
+				            <input name="usuario_cad" required="required" type="usuario" placeholder="ex. joaopedrogs1"/>
+
+				        </p>
+
+				        <p>
+
+				            <br>Senha
+				            <input name="senha_cad" required="required" type="senha" placeholder="ex. 1234sdfQsd"/>
+
+				        </p>
+
+			        </div>
+
+			        <p><input type ="submit" value="Cadastrar"></p>
+			        
+				</form>
+
+     	 	</div>
+
+		</main>
+
+	</body>
+</html>
