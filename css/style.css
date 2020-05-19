@@ -1,0 +1,314 @@
+body{
+
+  font-family: arial, sans-serif;
+  margin:10px;
+  background-color: #ccc;
+
+}
+
+/*Inicio do css da tela de Login*/
+.header-login h1{
+
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: green;
+
+}
+
+.main-login form{
+
+	width: 400px;
+	height: 230px;
+	border: 10px solid rgba(0, 255,0 ,.5);
+	border-radius: 10px 20px;
+	margin: 20px auto;
+	padding: 15px;
+
+}
+
+.main-login p{
+
+  text-align: center;
+  padding: 15px;
+  color: green;
+
+}
+
+.main-login label{
+
+  font-family: Arial, sans-serif;
+
+}
+
+.main-login .btn{
+
+	width:150px;
+	border-radius:4px;
+	border:1px solid #00FF00;
+	background: #cccccc;
+	box-shadow: 1px 1px 2px #333333;
+
+}
+
+.main-login input[type=submit]{
+
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+
+}
+
+/*Fechamento do css da tela de Login*/
+
+/*Inicio do css da tela de Cadastro*/
+.header-cadastro a{
+
+  text-decoration: none;
+  padding: 1em;
+
+}
+
+.header-cadastro li{
+
+    display: inline-block;
+    float: right;
+
+}
+
+.header-cadastro h1{
+
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: green;
+
+}
+
+.main-cadastro p{
+
+  text-align: center;
+  color: green;
+
+}
+.cadastro-2-3{
+
+  width: 59%;
+  float: left;
+
+
+}
+
+.cadastro-1-3{
+
+  width: 32%;
+  float: left;
+
+}
+
+.cadastro-2-3 + .cadastro-1-3{
+
+  margin-left: 2%;
+
+}
+
+.cadastro-1-3 + .cadastro-2-3{
+
+  margin-left: 2%;
+  
+}
+
+.main-cadastro input{
+
+  border-radius:4px;
+  box-shadow: 1px 1px 2px #333333;
+  background: #cccccc; 
+  border:1px solid #00FF00;
+  width:150px;
+
+}
+
+.main-cadastro input[type=submit]{
+
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+
+}
+/*Fechamento do css da tela de Cadastro*/
+
+/*Inicio do css da tela de listar*/
+
+.header-listar a{
+
+  text-decoration: none;
+  padding: 1em;
+
+}
+
+.header-listar li{
+
+    display: inline-block;
+    float: right;
+
+}
+
+.header-listar h1{
+
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: green;
+
+}
+
+.listar-2-3 {
+
+  width: 59%;
+  float: left;
+
+}
+
+.listar-1-3{
+
+  width: 32%;
+  float: left;
+
+}
+
+.listar-2-3 + .listar-1-3{
+
+  margin-left: 2%;
+
+}
+
+.listar-1-3 + .listar-2-3{
+
+  margin-left: 2%;
+  
+}
+.main-listar p{
+
+  text-align: center;
+  color: green;
+
+}
+
+.main-listar input{
+
+  border-radius:4px;
+  box-shadow: 1px 1px 2px #333333;
+  background: #cccccc; 
+  border:1px solid #00FF00;
+  width:150px;
+
+}
+
+.main-listar input[type=submit]{
+
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+
+}
+/*Fechamento do css da tela de Listar*/
+
+/*Inicio do css da tela do index*/
+
+.index h1{
+
+  text-align: center;
+  color: green;
+  font-family: arial, sans-serif;
+  font-size: 40px;
+
+}
+
+.index p{
+
+  text-align: center;
+
+}
+
+.index input{
+
+  border-radius:4px;
+  box-shadow: 1px 1px 2px #333333;
+  background: #cccccc; 
+  border:1px solid #00FF00;
+  width:150px;
+
+}
+
+.index input[type=submit]{
+
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+
+}
+
+.header-index {
+
+  width: 70%;
+  background: #ccc;
+  margin: 30px auto;
+
+}
+/*GRID*/
+.header-index{
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+
+}
+
+.header-index p:nth-child(1){
+
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+
+}
+
+.header-index p:nth-child(2){
+  
+  grid-row: 1 / span 1;
+  grid-column: 3 / -1;
+
+}
+
+.header-index input{
+
+  border-radius:4px;
+  box-shadow: 1px 1px 2px #333333;
+  background: #cccccc; 
+  border:1px solid #00FF00;
+  width:150px;
+
+}
+
+.header-index input[type=submit]{
+
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+
+}
+
+#title{
+
+  color: green;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 40px;
+  
+}
+
+/*Fechamento do css da tela do index*/
