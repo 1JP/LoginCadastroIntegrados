@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<?php
+    $conexao = mysqli_connect("localhost", "root", "root");
+    mysqli_select_db($conexao, "bancodedado");
+    session_start();
+    
+    if(!isset($_SESSION["usuario"]) || !isset($_SESSION["senha"])){
+        header ("Location: login.html");
+        exit;
+    }
+?>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Index</title>
+        <meta name = "author" content = "João Pedro">
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+        
+    </head>
+    <body>
+
+    	<div class = "index">
+    		
+    		<h1> Logado.</h1>
+        	<p><a href="./php/logout.php"><input type="submit" value="Logout"/></a></p>
+
+    	</div>
+
+    </body>
+</html>
